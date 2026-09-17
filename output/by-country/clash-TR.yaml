@@ -25,12 +25,23 @@ proxies:
   servername: sync-bridge.org
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 206.1.97.61
-  port: 13323
+  server: max.karmatel.ir
+  port: 55519
+  udp: true
+  type: vless
+  uuid: a2b9a1b7-f12f-4503-a9f6-c78ec565a6bf
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: play-apps-features.googleusercontent.com
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: 153.52.92.81
+  port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: XyodFtypR0xCFHyWW9gxqp15oU78njiX
+  password: IXa3ylzS_jBOAsQy071tIQ
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +50,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +59,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 rules:
 - MATCH,PROXIES
