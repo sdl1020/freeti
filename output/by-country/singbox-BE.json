@@ -6,20 +6,20 @@
     {
       "type": "vless",
       "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-      "server": "35.195.122.169",
+      "server": "207.175.190.56",
       "server_port": 443,
-      "uuid": "e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254",
+      "uuid": "51e493d4-b275-45e0-a714-e014f40b3c32",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
-          "public_key": "i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs",
-          "short_id": "68e97022627fa882"
+          "public_key": "nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA",
+          "short_id": "95ae4a39d3933191"
         }
       }
     },
