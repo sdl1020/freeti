@@ -6,21 +6,16 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "157.228.142.148",
-      "server_port": 8443,
+      "server": "89.110.66.154",
+      "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/act/rank/lang?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
