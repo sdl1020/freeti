@@ -12,12 +12,25 @@
       "password": "hbtvgUz5uNYyB3Rf"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-      "server": "185.135.86.175",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
+      "server": "193.163.203.170",
+      "server_port": 443,
+      "uuid": "11aabba0-5fd1-4f15-8068-74c1a466cefc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o",
+          "short_id": "b28db60d77c50b4f"
+        }
+      }
     },
     {
       "type": "selector",
