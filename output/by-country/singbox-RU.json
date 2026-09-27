@@ -6,21 +6,23 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "94.249.186.68",
-      "server_port": 8443,
-      "uuid": "b21bfee6-dbd3-4e0b-840f-d66f07bf3186",
-      "flow": "xtls-rprx-vision",
+      "server": "fbsv6.guardora.pro",
+      "server_port": 443,
+      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "fbsv6.guardora.pro",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU",
-          "short_id": "77c5f417fe413756"
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "fbsv6.guardora.pro"
         }
       }
     },
