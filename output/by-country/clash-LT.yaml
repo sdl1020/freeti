@@ -12,12 +12,20 @@ proxies:
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  server: 195.238.126.20
-  port: 9012
+  server: 176.123.165.180
+  port: 9881
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: xaupMUvhptwxdDUg
+  type: vless
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   server: 94.176.234.161
   port: 443
