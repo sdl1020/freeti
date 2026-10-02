@@ -34,7 +34,7 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "node-nl.shtormvpn.shop",
+      "server": "31.59.150.11",
       "server_port": 443,
       "uuid": "cc4d63e2-3a86-49b3-9598-328bbe93e56c",
       "flow": "xtls-rprx-vision",
@@ -43,7 +43,7 @@
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
