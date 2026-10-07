@@ -12,7 +12,11 @@
       "tls": {
         "enabled": true,
         "server_name": "sacred-anemone.rooster465.autos",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -24,7 +28,11 @@
       "tls": {
         "enabled": true,
         "server_name": "loved-shark.rooster465.autos",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
