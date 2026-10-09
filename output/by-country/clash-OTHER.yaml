@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.93.52
-  port: 2053
+  server: 188.114.97.6
+  port: 443
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: 33f13fd5-1553-4574-ac1a-432d2d762cbe
   tls: true
-  servername: uwu.blueknightnet.qzz.io
+  servername: frc.navid.lat
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    path: /webdl
     headers:
-      Host: uwu.blueknightnet.qzz.io
+      Host: frc.navid.lat
 proxy-groups:
 - name: PROXIES
   type: select
