@@ -27,20 +27,23 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "732051t.se1.h1clayd.click",
+      "server": "94.143.231.146",
       "server_port": 443,
-      "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "tls": {
         "enabled": true,
-        "server_name": "732051t.se1.h1clayd.click",
+        "server_name": "sub.merky.top",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk",
-          "short_id": "0983a448f995e806"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
         }
       }
     },
