@@ -4,36 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "uk3-2.998998.best",
-      "server_port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "server22.9966338.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/serhrdftshg",
-        "headers": {
-          "Host": "server22.9966338.xyz"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.64.198",
-      "server_port": 2095,
-      "uuid": "73796e63-0000-4000-8000-000000000008",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.65.43",
+      "server_port": 2052,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
       "transport": {
         "type": "ws",
-        "path": "/sync",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -42,16 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
