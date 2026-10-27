@@ -14,9 +14,9 @@ proxies:
   ws-opts:
     path: /ws
     headers:
-      Host: ais.speedtest.net
+      Host: v2ray.simspeedup.com
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: th001.zestapp778.com
+  server: 38.60.254.50
   port: 22222
   udp: true
   type: vless
@@ -24,7 +24,6 @@ proxies:
   tls: true
   servername: th001.zestapp778.com
   skip-cert-verify: false
-  client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
   server: 45.154.26.63
   port: 443
