@@ -35,7 +35,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -49,12 +49,24 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "location8.cpanel-host10.ir",
-      "server_port": 56134,
-      "method": "chacha20-ietf-poly1305",
-      "password": "uvKNudV-N8AUCrykPiyznA"
+      "server": "177.3.208.65",
+      "server_port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless-tr"
+      }
     },
     {
       "type": "selector",
