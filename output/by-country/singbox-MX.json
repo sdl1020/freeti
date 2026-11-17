@@ -4,30 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe",
-      "server": "157.254.38.210",
-      "server_port": 20103,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+      "server": "64.177.90.30",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
