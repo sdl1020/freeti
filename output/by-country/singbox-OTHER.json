@@ -5,23 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
-      "server": "172.64.88.98",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.71.249",
       "server_port": 443,
-      "uuid": "afa524de-2b93-4be9-b846-6bc88d8a2ce1",
+      "uuid": "419032d7-2247-49c9-85c8-cc454b7c11d6",
       "tls": {
         "enabled": true,
-        "server_name": "1v5Vp5jsQ611A5dsm.PAges.dEV",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "tiffany-capability-very-apartments.trycloudflare.com",
+        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/fbo164EXEqNcjQ9WdWcK?ed=2560fp=chrome",
+        "path": "/vl-419032d7",
         "headers": {
-          "Host": "1v5Vp5jsQ611A5dsm.PAges.dEV"
+          "Host": "tiffany-capability-very-apartments.trycloudflare.com"
         }
       }
     },
@@ -30,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
